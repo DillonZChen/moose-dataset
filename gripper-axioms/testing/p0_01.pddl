@@ -1,0 +1,7 @@
+(define (problem gripper-11_ext)
+    (:domain gripper-strips_ext)
+    (:requirements :derived-predicates :existential-preconditions)
+    (:objects ball1 ball10 ball11 ball2 ball3 ball4 ball5 ball6 ball7 ball8 ball9 left right rooma roomb)
+    (:init (at ball1 rooma) (at ball10 rooma) (at ball11 rooma) (at ball2 rooma) (at ball3 rooma) (at ball4 rooma) (at ball5 rooma) (at ball6 rooma) (at ball7 rooma) (at ball8 rooma) (at ball9 rooma) (at-robby rooma) (at_g ball1 roomb) (at_g ball10 roomb) (at_g ball11 roomb) (at_g ball2 roomb) (at_g ball3 roomb) (at_g ball4 roomb) (at_g ball5 roomb) (at_g ball6 roomb) (at_g ball7 roomb) (at_g ball8 roomb) (at_g ball9 roomb) (ball ball1) (ball ball10) (ball ball11) (ball ball2) (ball ball3) (ball ball4) (ball ball5) (ball ball6) (ball ball7) (ball ball8) (ball ball9) (free left) (free right) (gripper left) (gripper right) (room rooma) (room roomb))
+    (:goal (and (at ball1 roomb) (at ball2 roomb) (at ball3 roomb) (at ball4 roomb) (at ball5 roomb) (at ball6 roomb) (at ball7 roomb) (at ball8 roomb) (at ball9 roomb) (at ball10 roomb) (at ball11 roomb)))
+)

@@ -1,0 +1,7 @@
+(define (problem satellite-09_ext)
+    (:domain satellite_ext)
+    (:requirements :derived-predicates :existential-preconditions :negative-preconditions :strips :typing)
+    (:objects dir1 dir2 dir3 dir4 dir5 - direction ins1 ins2 ins3 ins4 ins5 ins6 ins7 - instrument mod1 - mode sat1 sat2 sat3 sat4 sat5 - satellite)
+    (:init (calibration_target ins1 dir3) (calibration_target ins2 dir4) (calibration_target ins3 dir5) (calibration_target ins4 dir3) (calibration_target ins5 dir4) (calibration_target ins6 dir5) (calibration_target ins7 dir1) (have_image_g dir1 mod1) (have_image_g dir2 mod1) (have_image_g dir5 mod1) (on_board ins1 sat4) (on_board ins2 sat3) (on_board ins3 sat2) (on_board ins4 sat1) (on_board ins5 sat5) (on_board ins6 sat4) (on_board ins7 sat5) (pointing sat1 dir1) (pointing sat2 dir3) (pointing sat3 dir4) (pointing sat4 dir5) (pointing sat5 dir4) (pointing_g sat1 dir5) (pointing_g sat3 dir1) (power_avail sat1) (power_avail sat2) (power_avail sat3) (power_avail sat4) (power_avail sat5) (supports ins1 mod1) (supports ins2 mod1) (supports ins3 mod1) (supports ins4 mod1) (supports ins5 mod1) (supports ins6 mod1) (supports ins7 mod1))
+    (:goal (and (pointing sat1 dir5) (pointing sat3 dir1) (have_image dir1 mod1) (have_image dir2 mod1) (have_image dir5 mod1)))
+)

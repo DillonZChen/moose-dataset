@@ -1,0 +1,1 @@
+For the training data to be exhaustive, we need two different problems where one starts in a tree cell and another in an empty cell.

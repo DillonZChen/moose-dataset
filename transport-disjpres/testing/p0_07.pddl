@@ -1,0 +1,7 @@
+(define (problem transport-07_ext)
+    (:domain transport_ext)
+    (:requirements :derived-predicates :existential-preconditions :typing)
+    (:objects l1 l2 l3 l4 l5 l6 l7 - location p1 p2 p3 p4 - package c0 c1 c2 - size v1 v2 v3 - vehicle)
+    (:init (at p1 l5) (at p2 l5) (at p3 l1) (at p4 l4) (at v1 l7) (at v2 l1) (at v3 l4) (at_g p1 l6) (at_g p2 l2) (at_g p3 l7) (at_g p4 l6) (capacity v1 c2) (capacity v2 c2) (capacity v3 c1) (capacity-predecessor c0 c1) (capacity-predecessor c1 c2) (road l1 l5) (road l1 l7) (road l2 l3) (road l2 l6) (road l2 l7) (road l3 l2) (road l3 l5) (road l4 l5) (road l4 l6) (road l4 l7) (road l5 l1) (road l5 l3) (road l5 l4) (road l5 l6) (road l6 l2) (road l6 l4) (road l6 l5) (road l6 l7) (road l7 l1) (road l7 l2) (road l7 l4) (road l7 l6))
+    (:goal (and (at p1 l6) (at p2 l2) (at p3 l7) (at p4 l6)))
+)

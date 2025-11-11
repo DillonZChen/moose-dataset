@@ -1,0 +1,1 @@
+Dataset from the paper Dillon Z. Chen, Till Hofmann, Toryn Q. Klassen, and Sheila A. McIlraith. **Satisficing and Optimal Generalised Planning via Goal Regression**. In *Proceedings of the 40th AAAI Conference on Artificial Intelligence*, 2026.

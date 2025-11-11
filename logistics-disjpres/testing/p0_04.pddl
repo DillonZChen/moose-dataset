@@ -1,0 +1,7 @@
+(define (problem logistics-c1-s2-p6-a1_ext)
+    (:domain logistics_ext)
+    (:requirements :derived-predicates :existential-preconditions :strips :typing)
+    (:objects a0 - airplane c0 - city l0-0 l0-1 - location p0 p1 p2 p3 p4 p5 - package t0 - truck)
+    (:init (at a0 l0-0) (at p0 l0-0) (at p1 l0-1) (at p2 l0-0) (at p3 l0-1) (at p4 l0-0) (at p5 l0-1) (at t0 l0-0) (at_g p0 l0-0) (at_g p1 l0-0) (at_g p2 l0-1) (at_g p3 l0-1) (at_g p4 l0-0) (at_g p5 l0-1) (has-airport l0-0) (in-city l0-0 c0) (in-city l0-1 c0))
+    (:goal (and (at p0 l0-0) (at p1 l0-0) (at p2 l0-1) (at p3 l0-1) (at p4 l0-0) (at p5 l0-1)))
+)

@@ -1,0 +1,7 @@
+(define (problem ferry-05_ext)
+    (:domain ferry_ext)
+    (:requirements :derived-predicates :existential-preconditions :negative-preconditions :strips :typing)
+    (:objects car1 car2 car3 car4 - car loc1 loc2 loc3 loc4 loc5 loc6 - location)
+    (:init (at car1 loc3) (at car2 loc1) (at car3 loc4) (at car4 loc2) (at-ferry loc3) (at_g car1 loc5) (at_g car2 loc5) (at_g car3 loc5) (at_g car4 loc6) (empty-ferry))
+    (:goal (and (at car1 loc5) (at car2 loc5) (at car3 loc5) (at car4 loc6)))
+)

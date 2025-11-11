@@ -1,0 +1,7 @@
+(define (problem miconic-04_ext)
+    (:domain miconic_ext)
+    (:requirements :derived-predicates :existential-preconditions :strips :typing)
+    (:objects f1 f2 f3 f4 f5 - floor p1 p2 - passenger)
+    (:init (above f1 f2) (above f1 f3) (above f1 f4) (above f1 f5) (above f2 f3) (above f2 f4) (above f2 f5) (above f3 f4) (above f3 f5) (above f4 f5) (destin p1 f1) (destin p2 f5) (lift-at f5) (origin p1 f2) (origin p2 f4) (served_g p1) (served_g p2))
+    (:goal (and (served p1) (served p2)))
+)

@@ -1,0 +1,7 @@
+(define (problem transport-17_ext)
+    (:domain transport_ext)
+    (:requirements :derived-predicates :existential-preconditions :typing)
+    (:objects l1 l10 l2 l3 l4 l5 l6 l7 l8 l9 - location p1 p2 p3 p4 p5 p6 p7 p8 p9 - package c0 c1 c2 - size v1 v2 v3 v4 v5 - vehicle)
+    (:init (at p1 l5) (at p2 l1) (at p3 l7) (at p4 l6) (at p5 l6) (at p6 l6) (at p7 l7) (at p8 l7) (at p9 l5) (at v1 l2) (at v2 l9) (at v3 l5) (at v4 l8) (at v5 l2) (at_g p1 l6) (at_g p2 l10) (at_g p3 l6) (at_g p4 l4) (at_g p5 l1) (at_g p6 l4) (at_g p7 l5) (at_g p8 l8) (at_g p9 l9) (capacity v1 c2) (capacity v2 c2) (capacity v3 c2) (capacity v4 c1) (capacity v5 c2) (capacity-predecessor c0 c1) (capacity-predecessor c1 c2) (road l1 l10) (road l1 l3) (road l1 l6) (road l1 l7) (road l10 l1) (road l10 l7) (road l10 l8) (road l2 l4) (road l2 l5) (road l2 l7) (road l2 l9) (road l3 l1) (road l3 l4) (road l4 l2) (road l4 l3) (road l4 l9) (road l5 l2) (road l5 l7) (road l6 l1) (road l6 l7) (road l7 l1) (road l7 l10) (road l7 l2) (road l7 l5) (road l7 l6) (road l7 l8) (road l8 l10) (road l8 l7) (road l8 l9) (road l9 l2) (road l9 l4) (road l9 l8))
+    (:goal (and (at p1 l6) (at p2 l10) (at p3 l6) (at p4 l4) (at p5 l1) (at p6 l4) (at p7 l5) (at p8 l8) (at p9 l9)))
+)
